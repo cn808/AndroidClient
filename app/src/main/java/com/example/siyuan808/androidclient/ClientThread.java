@@ -66,22 +66,22 @@ public class ClientThread extends Thread{
 
                 if(dstMsg != null){
                     handler.sendMessage(Message.obtain(handler, MainActivity.ClientHandler.UPDATE_MSG, dstMsg));
-                } else {
-                    DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
-                    clientSocket.receive(receivePacket);
-
-                    String modifiedSentence = new String(receivePacket.getData());
-                    System.out.println("FROM SERVER:" + modifiedSentence);
-                    clientSocket.close();
                 }
+
+                DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+                clientSocket.receive(receivePacket);
+
+                String modifiedSentence = new String(receivePacket.getData());
+                handler.sendMessage(Message.obtain(handler, MainActivity.ClientHandler.UPDATE_MSG, modifiedSentence));
+
+//              clientSocket.close();
                 setRunning(false);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
         }
-
+        
         handler.sendEmptyMessage(MainActivity.ClientHandler.UPDATE_END);
     }
 }
