@@ -53,24 +53,13 @@ public class ClientThread extends Thread{
         running = true;
 
         try {
-            //socket = new Socket(dstAddress, dstPort);
             sendState("connected");
-
             DatagramSocket clientSocket = new DatagramSocket();
             InetAddress IPAddress = InetAddress.getByName(dstAddress);
-
             byte[] sendData = new byte[1024];
             byte[] receiveData = new byte[1024];
 
-            //bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
-
-            //OutputStream outputStream = socket.getOutputStream();
-            //printWriter = new PrintWriter(outputStream, true);
-
             while(running){
-                //bufferedReader block the code
-                //String line = bufferedReader.readLine();
                 sendData = dstMsg.getBytes();
                 DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, dstPort);
                 clientSocket.send(sendPacket);

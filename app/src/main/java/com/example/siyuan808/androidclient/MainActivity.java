@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     EditText editTextAddress, editTextPort, editTextMsg;
-    Button buttonConnect, buttonDisconnect, buttonSend;
+    Button buttonConnect;
     TextView textViewState, textViewRx;
 
     ClientHandler clientHandler;
@@ -26,17 +26,17 @@ public class MainActivity extends AppCompatActivity {
         editTextPort = (EditText) findViewById(R.id.port);
         editTextMsg = (EditText) findViewById(R.id.msgtosend);
         buttonConnect = (Button) findViewById(R.id.connect);
-        buttonDisconnect = (Button) findViewById(R.id.disconnect);
-        buttonSend = (Button)findViewById(R.id.send);
+//        buttonDisconnect = (Button) findViewById(R.id.disconnect);
+//        buttonSend = (Button)findViewById(R.id.send);
         textViewState = (TextView)findViewById(R.id.state);
         textViewRx = (TextView)findViewById(R.id.received);
 
-        buttonDisconnect.setEnabled(false);
-        buttonSend.setEnabled(false);
+//        buttonDisconnect.setEnabled(false);
+//        buttonSend.setEnabled(false);
 
         buttonConnect.setOnClickListener(buttonConnectOnClickListener);
-        buttonDisconnect.setOnClickListener(buttonDisConnectOnClickListener);
-        buttonSend.setOnClickListener(buttonSendOnClickListener);
+//        buttonDisconnect.setOnClickListener(buttonDisConnectOnClickListener);
+//        buttonSend.setOnClickListener(buttonSendOnClickListener);
 
         clientHandler = new ClientHandler(this);
     }
@@ -55,30 +55,31 @@ public class MainActivity extends AppCompatActivity {
                     clientThread.start();
 
                     buttonConnect.setEnabled(false);
-                    buttonDisconnect.setEnabled(true);
-                    buttonSend.setEnabled(true);
+//                    buttonDisconnect.setEnabled(true);
+//                    buttonSend.setEnabled(true);
+
                 }
             };
 
-    View.OnClickListener buttonDisConnectOnClickListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            if(clientThread != null){
-                clientThread.setRunning(false);
-            }
+//    View.OnClickListener buttonDisConnectOnClickListener = new View.OnClickListener() {
+//        @Override
+//        public void onClick(View v) {
+//            if(clientThread != null){
+//                clientThread.setRunning(false);
+//            }
+//
+//        }
+//    };
 
-        }
-    };
-
-    View.OnClickListener buttonSendOnClickListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            if(clientThread != null){
-                String msgToSend = editTextMsg.getText().toString();
-                clientThread.txMsg(msgToSend);
-            }
-        }
-    };
+//    View.OnClickListener buttonSendOnClickListener = new View.OnClickListener() {
+//        @Override
+//        public void onClick(View v) {
+//            if(clientThread != null){
+//                String msgToSend = editTextMsg.getText().toString();
+//                clientThread.txMsg(msgToSend);
+//            }
+//        }
+//    };
 
     private void updateState(String state){
         textViewState.setText(state);
@@ -92,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
         clientThread = null;
         textViewState.setText("clientEnd()");
         buttonConnect.setEnabled(true);
-        buttonDisconnect.setEnabled(false);
-        buttonSend.setEnabled(false);
+//        buttonDisconnect.setEnabled(false);
+//        buttonSend.setEnabled(false);
 
     }
 
