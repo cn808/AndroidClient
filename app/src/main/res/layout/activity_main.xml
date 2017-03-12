@@ -19,22 +19,19 @@
         android:id="@+id/address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="dstAddress"
-        android:text="IP Address" />
+        android:hint="172.18.0.108" />
 
     <EditText
         android:id="@+id/port"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="dstPort"
-        android:text="Port Number" />
+        android:hint="10001" />
 
     <EditText
         android:id="@+id/msgtosend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="msg to send..."
-        android:text="Message" />
+        android:hint="Hello World!" />
 
     <Button
         android:id="@+id/connect"

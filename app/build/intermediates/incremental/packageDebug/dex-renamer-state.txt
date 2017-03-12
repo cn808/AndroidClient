@@ -1,4 +1,4 @@
-#Sat Mar 11 17:09:00 HST 2017
+#Sat Mar 11 17:38:39 HST 2017
 base.0=/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

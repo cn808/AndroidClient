@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",

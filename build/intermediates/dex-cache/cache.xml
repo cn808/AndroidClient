@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3c5577b9cc4d6810d77661bfa11be1ec087358a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
         <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_3ecb37f03f2f10c64142c846fb1becbdd0398d43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8874d689f1ddb52f32f617811efab3ea54c8f2dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_610588887410c0b81e0a66549c3d10fae83882bd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -72,6 +45,42 @@
         revision="24.0.1"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
         <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_b86486c6928e542c5c19bab3e64567e7f0ee6ad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_0b81f3ce3720d14fe5318a709a82a289934222cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3c5577b9cc4d6810d77661bfa11be1ec087358a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8874d689f1ddb52f32f617811efab3ea54c8f2dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_610588887410c0b81e0a66549c3d10fae83882bd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,15 +126,6 @@
         revision="24.0.1"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c1cd8f155e36825fa4352f3cafa9d7ac1531f5e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_0b81f3ce3720d14fe5318a709a82a289934222cf.jar" />
     </item>
     <item
         is-multidex="false"
