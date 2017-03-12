@@ -5,30 +5,29 @@ package com.example.siyuan808.androidclient;
  */
 
 import android.os.Message;
+import android.renderscript.ScriptGroup;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.Socket;
+import java.io.*;
+import java.net.*;
 
 public class ClientThread extends Thread{
 
     String dstAddress;
     int dstPort;
+    String dstMsg;
     private boolean running;
+
     MainActivity.ClientHandler handler;
 
     Socket socket;
     PrintWriter printWriter;
     BufferedReader bufferedReader;
 
-    public ClientThread(String addr, int port, MainActivity.ClientHandler handler) {
+    public ClientThread(String addr, int port, String msg, MainActivity.ClientHandler handler) {
         super();
         dstAddress = addr;
         dstPort = port;
+        dstMsg = msg;
         this.handler = handler;
     }
 
@@ -51,55 +50,47 @@ public class ClientThread extends Thread{
     @Override
     public void run() {
         sendState("connecting...");
-
         running = true;
 
         try {
-            socket = new Socket(dstAddress, dstPort);
+            //socket = new Socket(dstAddress, dstPort);
             sendState("connected");
 
-            OutputStream outputStream = socket.getOutputStream();
-            printWriter = new PrintWriter(outputStream, true);
+            DatagramSocket clientSocket = new DatagramSocket();
+            InetAddress IPAddress = InetAddress.getByName(dstAddress);
 
-            InputStream inputStream = socket.getInputStream();
-            InputStreamReader inputStreamReader =
-                    new InputStreamReader(inputStream);
-            bufferedReader = new BufferedReader(inputStreamReader);
+            byte[] sendData = new byte[1024];
+            byte[] receiveData = new byte[1024];
+
+            //bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+
+            //OutputStream outputStream = socket.getOutputStream();
+            //printWriter = new PrintWriter(outputStream, true);
 
             while(running){
-
                 //bufferedReader block the code
-                String line = bufferedReader.readLine();
-                if(line != null){
-                    handler.sendMessage(
-                            Message.obtain(handler,
-                                    MainActivity.ClientHandler.UPDATE_MSG, line));
-                }
+                //String line = bufferedReader.readLine();
+                sendData = dstMsg.getBytes();
+                DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, dstPort);
+                clientSocket.send(sendPacket);
 
+                if(dstMsg != null){
+                    handler.sendMessage(Message.obtain(handler, MainActivity.ClientHandler.UPDATE_MSG, dstMsg));
+                } else {
+                    DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+                    clientSocket.receive(receivePacket);
+
+                    String modifiedSentence = new String(receivePacket.getData());
+                    System.out.println("FROM SERVER:" + modifiedSentence);
+                    clientSocket.close();
+                }
+                setRunning(false);
             }
 
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if(bufferedReader != null){
-                try {
-                    bufferedReader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            if(printWriter != null){
-                printWriter.close();
-            }
-
-            if(socket != null){
-                try {
-                    socket.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
 
         handler.sendEmptyMessage(MainActivity.ClientHandler.UPDATE_END);

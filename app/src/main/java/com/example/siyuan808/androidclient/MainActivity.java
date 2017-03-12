@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     clientThread = new ClientThread(
                             editTextAddress.getText().toString(),
                             Integer.parseInt(editTextPort.getText().toString()),
+                            editTextMsg.getText().toString(),
                             clientHandler);
                     clientThread.start();
 

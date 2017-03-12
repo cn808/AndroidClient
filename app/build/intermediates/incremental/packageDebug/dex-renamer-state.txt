@@ -1,7 +1,4 @@
-#Sat Mar 11 00:49:01 HST 2017
-base.0=/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3ce840104f183b193dc30467b8526dc5f42a9a76
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_effb9ab1b317562478c08777957e0375bdae90b6/classes.dex
-base.1=/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_effb9ab1b317562478c08777957e0375bdae90b6
-file.0=/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3ce840104f183b193dc30467b8526dc5f42a9a76/classes.dex
+#Sat Mar 11 16:30:38 HST 2017
+base.0=/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

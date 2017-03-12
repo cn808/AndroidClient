@@ -2,157 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_688ca7ab2caeb5d02be97c776aa50472c6ef24d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2d38160b86f47973b174b2e3997d27b4bc50a979/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_fd2a2df25647f36bfe99f39255ce38d3a1cc41d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0ca82c75c6c2edae3293f14f2b0cbb17dc75d49b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_149ebc72ec0bd9a3443c82c132f8b66832c7b66b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6d9d59c6fe81c0ef9ea35e73a12b9988f4d21c4a">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3ce840104f183b193dc30467b8526dc5f42a9a76/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5e814a3ae26b8a56be8b248d0ae69917a3ea1b2d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_4c3fcf1db5225473fc6229fe4b28de82e12b1117/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_55f9053151d712c9ace00cc04662ba798070e8c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_ed079a1701abc3d70be77d7886075f9f036ff875/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b6147fe736da01ac179e08d947aef503e984f3b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_6379fd85beea05fa969676f3dedcfc3144bda995/classes.dex" />
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_3ecb37f03f2f10c64142c846fb1becbdd0398d43.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_ad005e75d70eea2389f25d3101243b3db2729a43/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2b52630037f37ba12e7a8f6c74826721e76dc937">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_effb9ab1b317562478c08777957e0375bdae90b6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_4f8c61faf7995b24cd73ebb53c9e97b6977152f5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_402820f8909701c1b6d56bbe2b8d84a45b26cd1b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/siyuan808/AndroidStudioProjects/androidclient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_bfa0060bddeffae9244fd75c48ee095dd32e41f6/classes.dex" />
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_4f23a3b800cc34ee431f2b61c9b5f84dde2405ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d48639a42ab73f3920693e5fe1425bfaea27aab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_2c09447dc3a6bc78e2cffaa011d3f0605e143335.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_b86486c6928e542c5c19bab3e64567e7f0ee6ad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_0b81f3ce3720d14fe5318a709a82a289934222cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3c5577b9cc4d6810d77661bfa11be1ec087358a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8874d689f1ddb52f32f617811efab3ea54c8f2dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_610588887410c0b81e0a66549c3d10fae83882bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_77cd1996acc4dbae7d4e3c01ef0b88dcfedb72e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_853128639d24a9385be32f958fbd848cce2286fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_3cb3634de1ad45faa007e323ed8120eb735b8f67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_06a970cb3d5b601d50613bf6ddf1c9a112019d68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c1cd8f155e36825fa4352f3cafa9d7ac1531f5e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/rosepetal/GitHub/AndroidClient/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_5565bed2bbf1d5562114de113bf096b786ed3e4f.jar" />
     </item>
 
 </items>
